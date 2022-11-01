@@ -1,0 +1,48 @@
+import React from "react";
+import '../hojas-de-estilo/Menu.css';
+
+class Menu extends React.Component
+{ 
+    render()
+    {
+
+        let superficie="";
+    
+        superficie = (e) =>{
+            superficie = e.target.value
+        }
+
+        let submitHandler = (e) => {
+            if (superficie === "") {
+              window.location.href = "/";
+            } else {
+              window.location.href = `/buscar/${superficie}`;
+            }
+          };
+        return (
+            <div class="topnav">
+            <a href="/">HOME</a>
+            <a href="/provincia-puerto">Provincias con Puerto</a>
+            <a href="/mapa">Mapa Argentina</a>
+            <form className="form-inline">
+            <input 
+             className="form-control mr-sm-2"
+            type="search" 
+            placeholder="Buscar.." 
+            aria-label="Search"
+            name="clave" 
+            onChange={superficie}
+            />
+            <button 
+             className="btn btn-outline-success my-2 my-sm-0"
+            type="button"
+            onClick={submitHandler}
+            >Buscar
+            </button>
+        </form>
+            </div>
+        );
+    }
+}
+
+export default Menu;

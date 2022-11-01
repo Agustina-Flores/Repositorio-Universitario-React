@@ -1,0 +1,52 @@
+.instrumentos
+{
+   width: 1000px;
+   height: 200px; 
+   margin: 10px 10px 50px;
+   display: flex;
+   align-items: left;
+   justify-content: center;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 3px 13px 1px rgb(248, 246, 246);
+}
+.contenedor-texto
+{ 
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  font-family: Lato, sans-serif;
+  font-weight: 400; 
+  line-height: 1.5rem;
+}
+
+.envio-gratis
+{
+  color: greenyellow;
+  font-size: 15px;
+}
+
+.costo-envio{
+  color: orangered
+ }
+.componente-descripcion
+{
+  text-align: left;
+  color: black;
+}
+
+.contenedor-imagen
+{
+  height: 100%;
+  width: auto;
+
+}
+
+.boton
+{
+  background-color: white;
+  border: 2px solid #04b5eb;
+  color: rgb(56, 187, 227);
+  font-size: 12px;
+  padding: 16px;
+}

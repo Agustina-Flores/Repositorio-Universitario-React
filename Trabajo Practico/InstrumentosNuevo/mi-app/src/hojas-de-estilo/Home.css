@@ -1,0 +1,13 @@
+.contenedor-home{
+    min-height: 600px;
+    display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center; 
+  }
+ 
+  p {
+     color: navy;
+     text-indent: 30px;
+     text-transform: uppercase;
+   }

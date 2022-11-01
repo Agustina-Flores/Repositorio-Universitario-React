@@ -1,0 +1,15 @@
+.contenedor-dondeEstamos
+{
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+p {
+    color: rgb(137, 21, 93);
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
